@@ -43,7 +43,7 @@ const HIGHLIGHTED_RESIDUES = [
 ];
 
 const METHOD = [
-  { key: "Sistema", value: "Dímero de [proteína], estructura inicial obtenida de [AlphaFold/PDB/modelado]." },
+  { key: "System", value: "E180-JAO2 dimer, initial structure obtained from AlphaFold3 and monomers refined using C-I-Tasser." },
   { key: "Preparación", value: "Protonación, limpieza de estructura, eliminación/retención de moléculas relevantes y generación del sistema solvado." },
   { key: "Software", value: "[OpenMM / GROMACS / AMBER / NAMD]" },
   { key: "Campo de fuerza", value: "[AMBER ff14SB / CHARMM36m / otro]" },
